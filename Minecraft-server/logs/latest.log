@@ -1,0 +1,113 @@
+[00:58:26] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[00:58:26] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
+[00:58:26] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[00:58:26] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23111!/ Service=ModLauncher Env=SERVER
+[00:58:27] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 4 dependencies adding them to mods collection
+[00:58:28] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[00:58:29] [main/INFO] [mixin]: Successfully loaded Mixin Connector [com.robertx22.age_of_exile.mmorpg.MixinConnector]
+[00:58:29] [main/INFO] [mixin]: Successfully loaded Mixin Connector [com.robertx22.library_of_exile.main.MixinConnector]
+[00:58:29] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[00:58:30] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER
+[00:58:30] [main/WARN] [mixin]: Error loading class: net/minecraft/client/multiplayer/MultiPlayerGameMode (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER)
+[00:58:30] [main/WARN] [mixin]: @Mixin target net.minecraft.client.multiplayer.MultiPlayerGameMode was not found mixins.cofhcore.json:MultiPlayerGameModeMixin
+[00:58:32] [main/WARN] [mixin]: Method overwrite conflict for setBlockState in mmorpg-mixins.json:FallingBlockEntityMixin, previously written by com.github.alexmodguy.alexscaves.mixin.FallingBlockEntityMixin. Skipping method.
+[00:58:36] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Initialize mod Library Ferret
+[00:58:36] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Initialized mod Library Ferret
+[00:58:38] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[00:58:38] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[00:58:38] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.20 Initialized
+[00:58:38] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.2.20 Initialized
+[00:58:38] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[00:58:41] [main/INFO] [evilcraft]: 2205 possible Broom base combinations are ready for flying!
+[00:58:42] [modloading-worker-0/INFO] [evilcraft]: Registered packet handler.
+[00:58:42] [main/INFO] [journeymap]: Initializing Packet Registries
+[00:58:45] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:58:49] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs]: Adding datapack listener capsid_recipes
+[00:58:50] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 26 recipes
+[00:58:50] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 3340 advancements
+[00:58:51] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 12 curio slots
+[00:58:51] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
+[00:58:53] [main/INFO] [evilcraft]: 19 Broom modifiers can be applied!
+[00:58:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[00:58:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[00:58:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[00:58:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[00:58:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[00:58:53] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[00:58:53] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:58:53] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[00:58:53] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:58:53] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:58:53] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-580 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.20, NeoForge version 47.1.79)
+[00:58:55] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[00:58:55] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[00:58:55] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[00:58:55] [Server thread/INFO] [com.mohistmc.MohistMC]: Hello Plugins!
+[00:58:55] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[00:58:55] [Thread-1/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[00:58:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[00:59:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[00:59:03] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:03] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:03] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:03] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:03] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:03] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:03] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:04] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 13%
+[00:59:04] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 80%
+[00:59:04] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 4173 ms
+[00:59:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[00:59:06] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:06] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:06] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:06] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[00:59:06] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1961 ms
+[00:59:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[00:59:08] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:08] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:08] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:08] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:09] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 63%
+[00:59:09] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2201 ms
+[00:59:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension mmorpg:dungeon
+[00:59:10] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:10] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:10] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:59:10] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 54%
+[00:59:11] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 90%
+[00:59:11] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2080 ms
+[00:59:11] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[00:59:11] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[00:59:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (16.715s)! For help, type "help"
+[00:59:11] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[00:59:11] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[00:59:11] [Server thread/INFO] [cyclopscore]: Loading infobook /data/cyclopscore/info/test.xml
+[00:59:11] [Server thread/INFO] [evilcraft]: Loading infobook /data/evilcraft/info/book.xml
+[00:59:12] [Server thread/WARN] [evilcraft]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[00:59:12] [Server thread/WARN] [evilcraft]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[00:59:12] [Server thread/WARN] [evilcraft]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[00:59:12] [Server thread/WARN] [evilcraft]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.baubles due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.blood_magic due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.ee3 due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.enderio due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.forestry due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.ic2 due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.immersiveengineering due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.thaumcraft due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.thermal_expansion due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.tinkers_construct due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] [evilcraft]: Skipped section info_book.evilcraftcompat.mod_integrations.waila due to unsatisfied mod condition.
+[00:59:12] [Server thread/INFO] []: Starting Age of Exile Registry auto validation.
+[00:59:12] [Server thread/INFO] []: All Age of Exile registries appear valid.
+[00:59:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chepi joined the game
+[00:59:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chepi has reached the goal [tombstone.advancement.easter.title]
+[00:59:44] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: chepi[/127.0.0.1:33080] logged in with entity id 572 at ([world]39.5, 64.0, -6.5)
+[01:01:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chepi has made the advancement [Monster Hunter]
+[01:06:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: chepi lost connection: Disconnected
+[01:06:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chepi left the game
+[01:06:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:06:57] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[01:06:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:06:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
